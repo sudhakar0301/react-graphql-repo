@@ -1,5 +1,5 @@
 const { model, Schema } = require("mongoose");
-
+console.log("hi");
 const UserSchema = new Schema({
   username: String,
   email: String,
